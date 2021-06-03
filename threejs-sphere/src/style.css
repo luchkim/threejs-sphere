@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    background-color: rgb(24,24,24);
+}
+
+body{
+    /* this removes scroll bar at bottom */
+    overflow-x: hidden;
+}
+.webgl, .webgl2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+
+    /* this is important since it gives z-index to*/
+    mix-blend-mode: exclusion ;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container2{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(219, 219, 219);
+}
+h1{
+    font-size: 6rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+section{
+    height: 100vh;
+}
